@@ -9,11 +9,8 @@ This is a shell script which facilitates auto-testing.
 
 **./runSuite suite-file program**
 
-####Note: 
-
-The argument suite-file is the name of a file containing a list of filename stems (more details below), and the argument program is the name of the program to be run.    
-
-In summary, the runSuite would look at the content of the new-line-spearated suite-file	and run the program by using the contents of files as input of the program. It would report any test whose output does not match the expected output.     
+####Note: The argument suite-file is the name of a file containing a list of filename stems (more details below), and the argument program is the name of the program to be run.     
+In summary, the runSuite would look at the content of the new-line-spearated suite-file	and run the program by using the contents of files as input of the program. It would report any test whose output does not match the expected output.      
 
 The suite-file contains a list of stems, from which we construct the names of files containing the input and expected output of each test. For example, suppose my suite file is:     
  test1     
